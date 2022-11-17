@@ -1,10 +1,8 @@
-/*Nav Styles */
 .ct-nav {
     display: flex;
     justify-content: space-between;
 }
 
-/* Target Main Logo Image */
 .ct-nav img {
     width: 25%;
     max-width: 100%;
@@ -31,8 +29,6 @@ ul#horizontal-list a:nth-last-child(1) {
     margin-right: 0.2vw;
 }
 
-/* End of Nav Styles */
-/* Start of Hero/Header Section */
 #header-text{
     padding: 2vw;
 }
@@ -42,8 +38,6 @@ ul#horizontal-list a:nth-last-child(1) {
     max-width: 100%;
 }
 
-/* End of Hero/Header section */
-/* Start of Middle Section */
 #middle-text{
     text-align: center;
     padding: 13vh;
@@ -53,8 +47,6 @@ ul#horizontal-list a:nth-last-child(1) {
     padding: 1.5vw;
 }
 
-/* End of Middle Section */
-/* Start of Features Section Styles */
 #api-image, #graphql-image, #database-image{
     margin-bottom: 10vh;
 }
@@ -62,17 +54,13 @@ ul#horizontal-list a:nth-last-child(1) {
 #features-section{
     margin: 8vw;
 }
-/* End of Features Section */
 
-/* Community Section Styles */
 #Car-image{
     width: 50%;
     max-width: 75%;
     margin-left: 3vw;
 }
-/* End of Community Section Styles */
 
-/* Start of Footer Section Styles */
 .footer-text-flex{
     display: flex;
     flex-direction: column;
@@ -89,11 +77,9 @@ ul#horizontal-list a:nth-last-child(1) {
     margin-top: 20vh;
 }
 
-
-/* Profile Styles */
 .hero-section{
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url(../images/drone-profile.jpg);
+    background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url(../images/2021-lamborghini-huracan-sto-102-1640358040.jpg);
     background-size: cover;
     background-position: 35% 50%;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
